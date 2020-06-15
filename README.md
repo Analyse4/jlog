@@ -3,7 +3,7 @@ jlog is a simple encapsulation for adding log level function against the standar
 # Installing
 Using jlog is easy. First, use go get to install the latest version of the library:
 ```bash
-go get -u github.com/spf13/cobra/cobra
+go get -u github.com/Analyse4/jlog
 ```
 Next, include jlog in your application:
 ```go
@@ -23,6 +23,7 @@ func main() {
 }
 ```
 Then you need set current log level.
+
 `jlog.LstdFlags|jlog.Lshortfile` is used to make jlog print data, time, file and line number:
 ```go
 func init() {
