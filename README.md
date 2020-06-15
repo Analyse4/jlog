@@ -7,7 +7,7 @@ go get -u github.com/Analyse4/jlog
 ```
 Next, include jlog in your application:
 ```go
-import "github.com/spf13/cobra"
+import "github.com/Analyse4/jlog"
 ```
 # Getting Started
 You need init in main package firstly when you about to use jlog as your project log package.
